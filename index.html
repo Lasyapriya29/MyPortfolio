@@ -19,9 +19,6 @@
                 <li></li>
                 <li></li>
                 <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
         </ul>
     </div > 
     <div class="main">
@@ -51,7 +48,7 @@
                     <div class="h-info">
                         <p>Hey! I'm</p>
                         <h1 class="neonText">LASYA PRIYA SAGINETI</h1>
-                        <h2>WEB DESIGNER</h2>
+                        <h2><span class="typing-script">Student</span></h2>
                         <a href="#about" class="btn link-item neonText">About Me</a>
                         <a href="My_Resume.pdf" target="_blank" class="btn neonText">My Resume</a>
                     </div>
@@ -235,30 +232,7 @@
         </section>
 
     </div>
-    <script>
-        let url="https://script.google.com/macros/s/AKfycbwp6CpB219-hL7ppB36XWki9NMo_XpKT3dkRM96CZgsAIdObvLoDHcHjEMRp7DnAQiZ/exec";
-        let form = document.querySelector("form");
-        let submit = document.querySelector(".submit");
-        let message = document.querySelector(".message");
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            submit.value = "sending.."
-            fetch(url, {
-                    method: "POST",
-                    body: new FormData(form)
-                })
-                .then(res => res.text())
-                .then(data => {
-                    message.innerHTML = data;
-                    submit.value = "Send Message"
- 
-                })
-                .catch(err => {
-                    message.innerHTML = err;
-                    submit.value = "Send Message"
-                })
-        })
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
