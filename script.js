@@ -30,3 +30,31 @@ document.addEventListener("click",(e)=>{
         },500);
     }
 });
+
+var type = new Typed('.typing-script',{
+    strings: ['Student', 'Front end developer', 'Competitive programmer'],
+    typeSpeed: 120,
+    loop: true
+});
+
+let url="https://script.google.com/macros/s/AKfycbwp6CpB219-hL7ppB36XWki9NMo_XpKT3dkRM96CZgsAIdObvLoDHcHjEMRp7DnAQiZ/exec";
+let form = document.querySelector("form");
+let submit = document.querySelector(".submit");
+let message = document.querySelector(".message");
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    submit.value = "sending.."
+    fetch(url, {
+    method: "POST",
+    body: new FormData(form)
+    })
+    .then(res => res.text())
+    .then(data => {
+        message.innerHTML = data;
+        submit.value = "Send Message"
+    })
+    .catch(err => {
+        message.innerHTML = err;
+        submit.value = "Send Message"
+    })
+})
