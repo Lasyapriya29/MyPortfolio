@@ -96,10 +96,6 @@
 .header:not(.active) .nav-toggler:hover span::after{
     width: 50%;
 }
-/* .header.active .nav-toggler:hover span::before,
-.header.active .nav-toggler:hover span::after{
-    width: 100%;
-} */
 .header .nav{
     position: fixed;
     left: 0;top: 0;
@@ -203,7 +199,6 @@ body{
     
 }
 
-
 .circles li:nth-child(1){
     left: 10%;
     width: 20px;
@@ -258,9 +253,6 @@ body{
     animation-delay: 9s;
     animation-duration: 10s;
 }
-
-
-
 
 @keyframes animate {
 
@@ -331,7 +323,6 @@ img{
     }
 }
 .home{
-    /* display: flex; */
     padding: 120px 0;
 }
 .home.active{
@@ -449,7 +440,6 @@ a{
 
 
 .about{
-    /* display: flex; */
     margin: 40px 0;
 }
 .about.active{
@@ -482,10 +472,6 @@ a{
     font-size: 20px;
     margin: 20px 0;
 }
-/* .abt-text .skills{
-    /* display: flex; */
-    /* flex-wrap: wrap; }
-    */
 .abt-text .skills{
     width: 50%;
 }
@@ -647,7 +633,6 @@ a{
     margin: 40px 0;
 }
 .contact{
-    /* display: flex; */
     margin: 40px 0;
 }
 .contact-form .message{
@@ -741,7 +726,6 @@ button{
     cursor: pointer;
 }
 .cert{
-    /* display: inline-block; */
     margin: 0 5px 30px;
     width: calc((100%/3)-10px);
     flex: 1 1 15rem;
