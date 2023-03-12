@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.0"
+	width="320"
+	height="340">
+
+<defs>
+	
+	<!-- sectors-->
+
+	<!--
+		-0.00015 = cos(a) - 1 
+		-0.01745 = - sin(a)
+		a = 1 degree
+	-->
+
+	<path id= "sec001" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00015,-0.01745 z" stroke-linejoin="round" />
+	<path id= "sec002" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00061,-0.03490 z" stroke-linejoin="round" />
+	<path id= "sec003" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00137,-0.05234 z" stroke-linejoin="round" />
+	<path id= "sec004" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00244,-0.06976 z" stroke-linejoin="round" />
+	<path id= "sec005" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00381,-0.08716 z" stroke-linejoin="round" />
+	<path id= "sec006" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00548,-0.10453 z" stroke-linejoin="round" />
+	<path id= "sec007" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00745,-0.12187 z" stroke-linejoin="round" />
+	<path id= "sec008" d="M 0,0 l 1,0 a1,1 0 0,0 -0.00973,-0.13917 z" stroke-linejoin="round" />
+	<path id= "sec009" d="M 0,0 l 1,0 a1,1 0 0,0 -0.01231,-0.15643 z" stroke-linejoin="round" />
+
+	<!-- 10 degrees -->
+
+	<path id= "sec010" d="M 0,0 l 1,0 a1,1 0 0,0 -0.01519,-0.17365 z" stroke-linejoin="round" />
+	<path id= "sec011" d="M 0,0 l 1,0 a1,1 0 0,0 -0.01837,-0.19081 z" stroke-linejoin="round" />
+	<path id= "sec012" d="M 0,0 l 1,0 a1,1 0 0,0 -0.02185,-0.20791 z" stroke-linejoin="round" />
+	<path id= "sec013" d="M 0,0 l 1,0 a1,1 0 0,0 -0.02563,-0.22495 z" stroke-linejoin="round" />
+	<path id= "sec014" d="M 0,0 l 1,0 a1,1 0 0,0 -0.02970,-0.24192 z" stroke-linejoin="round" />
+	<path id= "sec015" d="M 0,0 l 1,0 a1,1 0 0,0 -0.03407,-0.25882 z" stroke-linejoin="round" />
+	<path id= "sec016" d="M 0,0 l 1,0 a1,1 0 0,0 -0.03874,-0.27564 z" stroke-linejoin="round" />
+	<path id= "sec017" d="M 0,0 l 1,0 a1,1 0 0,0 -0.04370,-0.29237 z" stroke-linejoin="round" />
+	<path id= "sec018" d="M 0,0 l 1,0 a1,1 0 0,0 -0.04894,-0.30902 z" stroke-linejoin="round" />
+	<path id= "sec019" d="M 0,0 l 1,0 a1,1 0 0,0 -0.05448,-0.32557 z" stroke-linejoin="round" />
+
+	<!-- 20 degrees -->
+
+	<path id= "sec020" d="M 0,0 l 1,0 a1,1 0 0,0 -0.06031,-0.34202 z" stroke-linejoin="round" />
+	<path id= "sec021" d="M 0,0 l 1,0 a1,1 0 0,0 -0.06642,-0.35837 z" stroke-linejoin="round" />
+	<path id= "sec022" d="M 0,0 l 1,0 a1,1 0 0,0 -0.07282,-0.37461 z" stroke-linejoin="round" />
+	<path id= "sec023" d="M 0,0 l 1,0 a1,1 0 0,0 -0.07950,-0.39073 z" stroke-linejoin="round" />
+	<path id= "sec024" d="M 0,0 l 1,0 a1,1 0 0,0 -0.08645,-0.40674 z" stroke-linejoin="round" />
+	<path id= "sec025" d="M 0,0 l 1,0 a1,1 0 0,0 -0.09369,-0.42262 z" stroke-linejoin="round" />
+	<path id= "sec026" d="M 0,0 l 1,0 a1,1 0 0,0 -0.10121,-0.43837 z" stroke-linejoin="round" />
+	<path id= "sec027" d="M 0,0 l 1,0 a1,1 0 0,0 -0.10899,-0.45399 z" stroke-linejoin="round" />
+	<path id= "sec028" d="M 0,0 l 1,0 a1,1 0 0,0 -0.11705,-0.46947 z" stroke-linejoin="round" />
+	<path id= "sec029" d="M 0,0 l 1,0 a1,1 0 0,0 -0.12538,-0.48481 z" stroke-linejoin="round" />
+
+	<!-- 30 degrees -->
+
+	<path id= "sec030" d="M 0,0 l 1,0 a1,1 0 0,0 -0.13397,-0.50000 z" stroke-linejoin="round" />
+	<path id= "sec031" d="M 0,0 l 1,0 a1,1 0 0,0 -0.14283,-0.51504 z" stroke-linejoin="round" />
+	<path id= "sec032" d="M 0,0 l 1,0 a1,1 0 0,0 -0.15195,-0.52992 z" stroke-linejoin="round" />
+	<path id= "sec033" d="M 0,0 l 1,0 a1,1 0 0,0 -0.16133,-0.54464 z" stroke-linejoin="round" />
+	<path id= "sec034" d="M 0,0 l 1,0 a1,1 0 0,0 -0.17096,-0.55919 z" stroke-linejoin="round" />
+	<path id= "sec035" d="M 0,0 l 1,0 a1,1 0 0,0 -0.18085,-0.57358 z" stroke-linejoin="round" />
+	<path id= "sec036" d="M 0,0 l 1,0 a1,1 0 0,0 -0.19098,-0.58779 z" stroke-linejoin="round" />
+	<path id= "sec037" d="M 0,0 l 1,0 a1,1 0 0,0 -0.20136,-0.60182 z" stroke-linejoin="round" />
+	<path id= "sec038" d="M 0,0 l 1,0 a1,1 0 0,0 -0.21199,-0.61566 z" stroke-linejoin="round" />
+	<path id= "sec039" d="M 0,0 l 1,0 a1,1 0 0,0 -0.22285,-0.62932 z" stroke-linejoin="round" />
+
+	<!-- 40 degrees -->
+
+	<path id= "sec040" d="M 0,0 l 1,0 a1,1 0 0,0 -0.23396,-0.64279 z" stroke-linejoin="round" />
+	<path id= "sec041" d="M 0,0 l 1,0 a1,1 0 0,0 -0.24529,-0.65606 z" stroke-linejoin="round" />
+	<path id= "sec042" d="M 0,0 l 1,0 a1,1 0 0,0 -0.25686,-0.66913 z" stroke-linejoin="round" />
+	<path id= "sec043" d="M 0,0 l 1,0 a1,1 0 0,0 -0.26865,-0.68200 z" stroke-linejoin="round" />
+	<path id= "sec044" d="M 0,0 l 1,0 a1,1 0 0,0 -0.28066,-0.69466 z" stroke-linejoin="round" />
+	<path id= "sec045" d="M 0,0 l 1,0 a1,1 0 0,0 -0.29289,-0.70711 z" stroke-linejoin="round" />
+	<path id= "sec046" d="M 0,0 l 1,0 a1,1 0 0,0 -0.30534,-0.71934 z" stroke-linejoin="round" />
+	<path id= "sec047" d="M 0,0 l 1,0 a1,1 0 0,0 -0.31800,-0.73135 z" stroke-linejoin="round" />
+	<path id= "sec048" d="M 0,0 l 1,0 a1,1 0 0,0 -0.33087,-0.74314 z" stroke-linejoin="round" />
+	<path id= "sec049" d="M 0,0 l 1,0 a1,1 0 0,0 -0.34394,-0.75471 z" stroke-linejoin="round" />
+
+	<!-- 50 degrees -->
+
+	<path id= "sec050" d="M 0,0 l 1,0 a1,1 0 0,0 -0.35721,-0.76604 z" stroke-linejoin="round" />
+	<path id= "sec051" d="M 0,0 l 1,0 a1,1 0 0,0 -0.37068,-0.77715 z" stroke-linejoin="round" />
+	<path id= "sec052" d="M 0,0 l 1,0 a1,1 0 0,0 -0.38434,-0.78801 z" stroke-linejoin="round" />
+	<path id= "sec053" d="M 0,0 l 1,0 a1,1 0 0,0 -0.39818,-0.79864 z" stroke-linejoin="round" />
+	<path id= "sec054" d="M 0,0 l 1,0 a1,1 0 0,0 -0.41221,-0.80902 z" stroke-linejoin="round" />
+	<path id= "sec055" d="M 0,0 l 1,0 a1,1 0 0,0 -0.42642,-0.81915 z" stroke-linejoin="round" />
+	<path id= "sec056" d="M 0,0 l 1,0 a1,1 0 0,0 -0.44081,-0.82904 z" stroke-linejoin="round" />
+	<path id= "sec057" d="M 0,0 l 1,0 a1,1 0 0,0 -0.45536,-0.83867 z" stroke-linejoin="round" />
+	<path id= "sec058" d="M 0,0 l 1,0 a1,1 0 0,0 -0.47008,-0.84805 z" stroke-linejoin="round" />
+	<path id= "sec059" d="M 0,0 l 1,0 a1,1 0 0,0 -0.48496,-0.85717 z" stroke-linejoin="round" />
+
+	<!-- 60 degrees -->
+
+	<path id= "sec060" d="M 0,0 l 1,0 a1,1 0 0,0 -0.50000,-0.86603 z" stroke-linejoin="round" />
+	<path id= "sec061" d="M 0,0 l 1,0 a1,1 0 0,0 -0.51519,-0.87462 z" stroke-linejoin="round" />
+	<path id= "sec062" d="M 0,0 l 1,0 a1,1 0 0,0 -0.53053,-0.88295 z" stroke-linejoin="round" />
+	<path id= "sec063" d="M 0,0 l 1,0 a1,1 0 0,0 -0.54601,-0.89101 z" stroke-linejoin="round" />
+	<path id= "sec064" d="M 0,0 l 1,0 a1,1 0 0,0 -0.56163,-0.89879 z" stroke-linejoin="round" />
+	<path id= "sec065" d="M 0,0 l 1,0 a1,1 0 0,0 -0.57738,-0.90631 z" stroke-linejoin="round" />
+	<path id= "sec066" d="M 0,0 l 1,0 a1,1 0 0,0 -0.59326,-0.91355 z" stroke-linejoin="round" />
+	<path id= "sec067" d="M 0,0 l 1,0 a1,1 0 0,0 -0.60927,-0.92050 z" stroke-linejoin="round" />
+	<path id= "sec068" d="M 0,0 l 1,0 a1,1 0 0,0 -0.62539,-0.92718 z" stroke-linejoin="round" />
+	<path id= "sec069" d="M 0,0 l 1,0 a1,1 0 0,0 -0.64163,-0.93358 z" stroke-linejoin="round" />
+
+	<!-- 70 degrees -->
+
+	<path id= "sec070" d="M 0,0 l 1,0 a1,1 0 0,0 -0.65798,-0.93969 z" stroke-linejoin="round" />
+	<path id= "sec071" d="M 0,0 l 1,0 a1,1 0 0,0 -0.67443,-0.94552 z" stroke-linejoin="round" />
+	<path id= "sec072" d="M 0,0 l 1,0 a1,1 0 0,0 -0.69098,-0.95106 z" stroke-linejoin="round" />
+	<path id= "sec073" d="M 0,0 l 1,0 a1,1 0 0,0 -0.70763,-0.95630 z" stroke-linejoin="round" />
+	<path id= "sec074" d="M 0,0 l 1,0 a1,1 0 0,0 -0.72436,-0.96126 z" stroke-linejoin="round" />
+	<path id= "sec075" d="M 0,0 l 1,0 a1,1 0 0,0 -0.74118,-0.96593 z" stroke-linejoin="round" />
+	<path id= "sec076" d="M 0,0 l 1,0 a1,1 0 0,0 -0.75808,-0.97030 z" stroke-linejoin="round" />
+	<path id= "sec077" d="M 0,0 l 1,0 a1,1 0 0,0 -0.77505,-0.97437 z" stroke-linejoin="round" />
+	<path id= "sec078" d="M 0,0 l 1,0 a1,1 0 0,0 -0.79209,-0.97815 z" stroke-linejoin="round" />
+	<path id= "sec079" d="M 0,0 l 1,0 a1,1 0 0,0 -0.80919,-0.98163 z" stroke-linejoin="round" />
+
+	<!-- 80 degrees -->
+
+	<path id= "sec080" d="M 0,0 l 1,0 a1,1 0 0,0 -0.82635,-0.98481 z" stroke-linejoin="round" />
+	<path id= "sec081" d="M 0,0 l 1,0 a1,1 0 0,0 -0.84357,-0.98769 z" stroke-linejoin="round" />
+	<path id= "sec082" d="M 0,0 l 1,0 a1,1 0 0,0 -0.86083,-0.99027 z" stroke-linejoin="round" />
+	<path id= "sec083" d="M 0,0 l 1,0 a1,1 0 0,0 -0.87813,-0.99255 z" stroke-linejoin="round" />
+	<path id= "sec084" d="M 0,0 l 1,0 a1,1 0 0,0 -0.89547,-0.99452 z" stroke-linejoin="round" />
+	<path id= "sec085" d="M 0,0 l 1,0 a1,1 0 0,0 -0.91284,-0.99619 z" stroke-linejoin="round" />
+	<path id= "sec086" d="M 0,0 l 1,0 a1,1 0 0,0 -0.93024,-0.99756 z" stroke-linejoin="round" />
+	<path id= "sec087" d="M 0,0 l 1,0 a1,1 0 0,0 -0.94766,-0.99863 z" stroke-linejoin="round" />
+	<path id= "sec088" d="M 0,0 l 1,0 a1,1 0 0,0 -0.96510,-0.99939 z" stroke-linejoin="round" />
+	<path id= "sec089" d="M 0,0 l 1,0 a1,1 0 0,0 -0.98255,-0.99985 z" stroke-linejoin="round" />
+
+	<!-- 90 degrees -->
+
+	<path id= "sec090" d="M 0,0 l 1,0 a1,1 0 0,0 -1.00000,-1.00000 z" stroke-linejoin="round" />
+	<path id= "sec091" d="M 0,0 l 1,0 a1,1 0 0,0 -1.01745,-0.99985 z" stroke-linejoin="round" />
+	<path id= "sec092" d="M 0,0 l 1,0 a1,1 0 0,0 -1.03490,-0.99939 z" stroke-linejoin="round" />
+	<path id= "sec093" d="M 0,0 l 1,0 a1,1 0 0,0 -1.05234,-0.99863 z" stroke-linejoin="round" />
+	<path id= "sec094" d="M 0,0 l 1,0 a1,1 0 0,0 -1.06976,-0.99756 z" stroke-linejoin="round" />
+	<path id= "sec095" d="M 0,0 l 1,0 a1,1 0 0,0 -1.08716,-0.99619 z" stroke-linejoin="round" />
+	<path id= "sec096" d="M 0,0 l 1,0 a1,1 0 0,0 -1.10453,-0.99452 z" stroke-linejoin="round" />
+	<path id= "sec097" d="M 0,0 l 1,0 a1,1 0 0,0 -1.12187,-0.99255 z" stroke-linejoin="round" />
+	<path id= "sec098" d="M 0,0 l 1,0 a1,1 0 0,0 -1.13917,-0.99027 z" stroke-linejoin="round" />
+	<path id= "sec099" d="M 0,0 l 1,0 a1,1 0 0,0 -1.15643,-0.98769 z" stroke-linejoin="round" />
+
+	<!-- 100 degrees -->
+
+	<path id= "sec100" d="M 0,0 l 1,0 a1,1 0 0,0 -1.17365,-0.98481 z" stroke-linejoin="round" />
+	<path id= "sec101" d="M 0,0 l 1,0 a1,1 0 0,0 -1.19081,-0.98163 z" stroke-linejoin="round" />
+	<path id= "sec102" d="M 0,0 l 1,0 a1,1 0 0,0 -1.20791,-0.97815 z" stroke-linejoin="round" />
+	<path id= "sec103" d="M 0,0 l 1,0 a1,1 0 0,0 -1.22495,-0.97437 z" stroke-linejoin="round" />
+	<path id= "sec104" d="M 0,0 l 1,0 a1,1 0 0,0 -1.24192,-0.97030 z" stroke-linejoin="round" />
+	<path id= "sec105" d="M 0,0 l 1,0 a1,1 0 0,0 -1.25882,-0.96593 z" stroke-linejoin="round" />
+	<path id= "sec106" d="M 0,0 l 1,0 a1,1 0 0,0 -1.27564,-0.96126 z" stroke-linejoin="round" />
+	<path id= "sec107" d="M 0,0 l 1,0 a1,1 0 0,0 -1.29237,-0.95630 z" stroke-linejoin="round" />
+	<path id= "sec108" d="M 0,0 l 1,0 a1,1 0 0,0 -1.30902,-0.95106 z" stroke-linejoin="round" />
+	<path id= "sec109" d="M 0,0 l 1,0 a1,1 0 0,0 -1.32557,-0.94552 z" stroke-linejoin="round" />
+
+	<!-- 110 degrees -->
+
+	<path id= "sec110" d="M 0,0 l 1,0 a1,1 0 0,0 -1.34202,-0.93969 z" stroke-linejoin="round" />
+	<path id= "sec111" d="M 0,0 l 1,0 a1,1 0 0,0 -1.35837,-0.93358 z" stroke-linejoin="round" />
+	<path id= "sec112" d="M 0,0 l 1,0 a1,1 0 0,0 -1.37461,-0.92718 z" stroke-linejoin="round" />
+	<path id= "sec113" d="M 0,0 l 1,0 a1,1 0 0,0 -1.39073,-0.92050 z" stroke-linejoin="round" />
+	<path id= "sec114" d="M 0,0 l 1,0 a1,1 0 0,0 -1.40674,-0.91355 z" stroke-linejoin="round" />
+	<path id= "sec115" d="M 0,0 l 1,0 a1,1 0 0,0 -1.42262,-0.90631 z" stroke-linejoin="round" />
+	<path id= "sec116" d="M 0,0 l 1,0 a1,1 0 0,0 -1.43837,-0.89879 z" stroke-linejoin="round" />
+	<path id= "sec117" d="M 0,0 l 1,0 a1,1 0 0,0 -1.45399,-0.89101 z" stroke-linejoin="round" />
+	<path id= "sec118" d="M 0,0 l 1,0 a1,1 0 0,0 -1.46947,-0.88295 z" stroke-linejoin="round" />
+	<path id= "sec119" d="M 0,0 l 1,0 a1,1 0 0,0 -1.48481,-0.87462 z" stroke-linejoin="round" />
+
+	<!-- 120 degrees -->
+
+	<path id= "sec120" d="M 0,0 l 1,0 a1,1 0 0,0 -1.50000,-0.86603 z" stroke-linejoin="round" />
+	<path id= "sec121" d="M 0,0 l 1,0 a1,1 0 0,0 -1.51504,-0.85717 z" stroke-linejoin="round" />
+	<path id= "sec122" d="M 0,0 l 1,0 a1,1 0 0,0 -1.52992,-0.84805 z" stroke-linejoin="round" />
+	<path id= "sec123" d="M 0,0 l 1,0 a1,1 0 0,0 -1.54464,-0.83867 z" stroke-linejoin="round" />
+	<path id= "sec124" d="M 0,0 l 1,0 a1,1 0 0,0 -1.55919,-0.82904 z" stroke-linejoin="round" />
+	<path id= "sec125" d="M 0,0 l 1,0 a1,1 0 0,0 -1.57358,-0.81915 z" stroke-linejoin="round" />
+	<path id= "sec126" d="M 0,0 l 1,0 a1,1 0 0,0 -1.58779,-0.80902 z" stroke-linejoin="round" />
+	<path id= "sec127" d="M 0,0 l 1,0 a1,1 0 0,0 -1.60182,-0.79864 z" stroke-linejoin="round" />
+	<path id= "sec128" d="M 0,0 l 1,0 a1,1 0 0,0 -1.61566,-0.78801 z" stroke-linejoin="round" />
+	<path id= "sec129" d="M 0,0 l 1,0 a1,1 0 0,0 -1.62932,-0.77715 z" stroke-linejoin="round" />
+
+	<!-- 130 degrees -->
+
+	<path id= "sec130" d="M 0,0 l 1,0 a1,1 0 0,0 -1.64279,-0.76604 z" stroke-linejoin="round" />
+	<path id= "sec131" d="M 0,0 l 1,0 a1,1 0 0,0 -1.65606,-0.75471 z" stroke-linejoin="round" />
+	<path id= "sec132" d="M 0,0 l 1,0 a1,1 0 0,0 -1.66913,-0.74314 z" stroke-linejoin="round" />
+	<path id= "sec133" d="M 0,0 l 1,0 a1,1 0 0,0 -1.68200,-0.73135 z" stroke-linejoin="round" />
+	<path id= "sec134" d="M 0,0 l 1,0 a1,1 0 0,0 -1.69466,-0.71934 z" stroke-linejoin="round" />
+	<path id= "sec135" d="M 0,0 l 1,0 a1,1 0 0,0 -1.70711,-0.70711 z" stroke-linejoin="round" />
+	<path id= "sec136" d="M 0,0 l 1,0 a1,1 0 0,0 -1.71934,-0.69466 z" stroke-linejoin="round" />
+	<path id= "sec137" d="M 0,0 l 1,0 a1,1 0 0,0 -1.73135,-0.68200 z" stroke-linejoin="round" />
+	<path id= "sec138" d="M 0,0 l 1,0 a1,1 0 0,0 -1.74314,-0.66913 z" stroke-linejoin="round" />
+	<path id= "sec139" d="M 0,0 l 1,0 a1,1 0 0,0 -1.75471,-0.65606 z" stroke-linejoin="round" />
+
+	<!-- 140 degrees -->
+
+	<path id= "sec140" d="M 0,0 l 1,0 a1,1 0 0,0 -1.76604,-0.64279 z" stroke-linejoin="round" />
+	<path id= "sec141" d="M 0,0 l 1,0 a1,1 0 0,0 -1.77715,-0.62932 z" stroke-linejoin="round" />
+	<path id= "sec142" d="M 0,0 l 1,0 a1,1 0 0,0 -1.78801,-0.61566 z" stroke-linejoin="round" />
+	<path id= "sec143" d="M 0,0 l 1,0 a1,1 0 0,0 -1.79864,-0.60182 z" stroke-linejoin="round" />
+	<path id= "sec144" d="M 0,0 l 1,0 a1,1 0 0,0 -1.80902,-0.58779 z" stroke-linejoin="round" />
+	<path id= "sec145" d="M 0,0 l 1,0 a1,1 0 0,0 -1.81915,-0.57358 z" stroke-linejoin="round" />
+	<path id= "sec146" d="M 0,0 l 1,0 a1,1 0 0,0 -1.82904,-0.55919 z" stroke-linejoin="round" />
+	<path id= "sec147" d="M 0,0 l 1,0 a1,1 0 0,0 -1.83867,-0.54464 z" stroke-linejoin="round" />
+	<path id= "sec148" d="M 0,0 l 1,0 a1,1 0 0,0 -1.84805,-0.52992 z" stroke-linejoin="round" />
+	<path id= "sec149" d="M 0,0 l 1,0 a1,1 0 0,0 -1.85717,-0.51504 z" stroke-linejoin="round" />
+
+	<!-- 150 degrees -->
+
+	<path id= "sec150" d="M 0,0 l 1,0 a1,1 0 0,0 -1.86603,-0.50000 z" stroke-linejoin="round" />
+	<path id= "sec151" d="M 0,0 l 1,0 a1,1 0 0,0 -1.87462,-0.48481 z" stroke-linejoin="round" />
+	<path id= "sec152" d="M 0,0 l 1,0 a1,1 0 0,0 -1.88295,-0.46947 z" stroke-linejoin="round" />
+	<path id= "sec153" d="M 0,0 l 1,0 a1,1 0 0,0 -1.89101,-0.45399 z" stroke-linejoin="round" />
+	<path id= "sec154" d="M 0,0 l 1,0 a1,1 0 0,0 -1.89879,-0.43837 z" stroke-linejoin="round" />
+	<path id= "sec155" d="M 0,0 l 1,0 a1,1 0 0,0 -1.90631,-0.42262 z" stroke-linejoin="round" />
+	<path id= "sec156" d="M 0,0 l 1,0 a1,1 0 0,0 -1.91355,-0.40674 z" stroke-linejoin="round" />
+	<path id= "sec157" d="M 0,0 l 1,0 a1,1 0 0,0 -1.92050,-0.39073 z" stroke-linejoin="round" />
+	<path id= "sec158" d="M 0,0 l 1,0 a1,1 0 0,0 -1.92718,-0.37461 z" stroke-linejoin="round" />
+	<path id= "sec159" d="M 0,0 l 1,0 a1,1 0 0,0 -1.93358,-0.35837 z" stroke-linejoin="round" />
+
+	<!-- 160 degrees -->
+
+	<path id= "sec160" d="M 0,0 l 1,0 a1,1 0 0,0 -1.93969,-0.34202 z" stroke-linejoin="round" />
+	<path id= "sec161" d="M 0,0 l 1,0 a1,1 0 0,0 -1.94552,-0.32557 z" stroke-linejoin="round" />
+	<path id= "sec162" d="M 0,0 l 1,0 a1,1 0 0,0 -1.95106,-0.30902 z" stroke-linejoin="round" />
+	<path id= "sec163" d="M 0,0 l 1,0 a1,1 0 0,0 -1.95630,-0.29237 z" stroke-linejoin="round" />
+	<path id= "sec164" d="M 0,0 l 1,0 a1,1 0 0,0 -1.96126,-0.27564 z" stroke-linejoin="round" />
+	<path id= "sec165" d="M 0,0 l 1,0 a1,1 0 0,0 -1.96593,-0.25882 z" stroke-linejoin="round" />
+	<path id= "sec166" d="M 0,0 l 1,0 a1,1 0 0,0 -1.97030,-0.24192 z" stroke-linejoin="round" />
+	<path id= "sec167" d="M 0,0 l 1,0 a1,1 0 0,0 -1.97437,-0.22495 z" stroke-linejoin="round" />
+	<path id= "sec168" d="M 0,0 l 1,0 a1,1 0 0,0 -1.97815,-0.20791 z" stroke-linejoin="round" />
+	<path id= "sec169" d="M 0,0 l 1,0 a1,1 0 0,0 -1.98163,-0.19081 z" stroke-linejoin="round" />
+
+	<!-- 170 degrees -->
+
+	<path id= "sec170" d="M 0,0 l 1,0 a1,1 0 0,0 -1.98481,-0.17365 z" stroke-linejoin="round" />
+	<path id= "sec171" d="M 0,0 l 1,0 a1,1 0 0,0 -1.98769,-0.15643 z" stroke-linejoin="round" />
+	<path id= "sec172" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99027,-0.13917 z" stroke-linejoin="round" />
+	<path id= "sec173" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99255,-0.12187 z" stroke-linejoin="round" />
+	<path id= "sec174" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99452,-0.10453 z" stroke-linejoin="round" />
+	<path id= "sec175" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99619,-0.08716 z" stroke-linejoin="round" />
+	<path id= "sec176" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99756,-0.06976 z" stroke-linejoin="round" />
+	<path id= "sec177" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99863,-0.05234 z" stroke-linejoin="round" />
+	<path id= "sec178" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99939,-0.03490 z" stroke-linejoin="round" />
+	<path id= "sec179" d="M 0,0 l 1,0 a1,1 0 0,0 -1.99985,-0.01745 z" stroke-linejoin="round" />
+
+	<!-- 180 degrees -->
+
+	<path id= "sec180" d="M 0,0 l 1,0 a1,1 0 1,0 -2.00000,+0.00000 z" stroke-linejoin="round" />
+	<path id= "sec181" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99985,+0.01745 z" stroke-linejoin="round" />
+	<path id= "sec182" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99939,+0.03490 z" stroke-linejoin="round" />
+	<path id= "sec183" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99863,+0.05234 z" stroke-linejoin="round" />
+	<path id= "sec184" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99756,+0.06976 z" stroke-linejoin="round" />
+	<path id= "sec185" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99619,+0.08716 z" stroke-linejoin="round" />
+	<path id= "sec186" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99452,+0.10453 z" stroke-linejoin="round" />
+	<path id= "sec187" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99255,+0.12187 z" stroke-linejoin="round" />
+	<path id= "sec188" d="M 0,0 l 1,0 a1,1 0 1,0 -1.99027,+0.13917 z" stroke-linejoin="round" />
+	<path id= "sec189" d="M 0,0 l 1,0 a1,1 0 1,0 -1.98769,+0.15643 z" stroke-linejoin="round" />
+
+	<!-- 190 degrees -->
+
+	<path id= "sec190" d="M 0,0 l 1,0 a1,1 0 1,0 -1.98481,+0.17365 z" stroke-linejoin="round" />
+	<path id= "sec191" d="M 0,0 l 1,0 a1,1 0 1,0 -1.98163,+0.19081 z" stroke-linejoin="round" />
+	<path id= "sec192" d="M 0,0 l 1,0 a1,1 0 1,0 -1.97815,+0.20791 z" stroke-linejoin="round" />
+	<path id= "sec193" d="M 0,0 l 1,0 a1,1 0 1,0 -1.97437,+0.22495 z" stroke-linejoin="round" />
+	<path id= "sec194" d="M 0,0 l 1,0 a1,1 0 1,0 -1.97030,+0.24192 z" stroke-linejoin="round" />
+	<path id= "sec195" d="M 0,0 l 1,0 a1,1 0 1,0 -1.96593,+0.25882 z" stroke-linejoin="round" />
+	<path id= "sec196" d="M 0,0 l 1,0 a1,1 0 1,0 -1.96126,+0.27564 z" stroke-linejoin="round" />
+	<path id= "sec197" d="M 0,0 l 1,0 a1,1 0 1,0 -1.95630,+0.29237 z" stroke-linejoin="round" />
+	<path id= "sec198" d="M 0,0 l 1,0 a1,1 0 1,0 -1.95106,+0.30902 z" stroke-linejoin="round" />
+	<path id= "sec199" d="M 0,0 l 1,0 a1,1 0 1,0 -1.94552,+0.32557 z" stroke-linejoin="round" />
+
+	<!-- 200 degrees -->
+
+	<path id= "sec200" d="M 0,0 l 1,0 a1,1 0 1,0 -1.93969,+0.34202 z" stroke-linejoin="round" />
+	<path id= "sec201" d="M 0,0 l 1,0 a1,1 0 1,0 -1.93358,+0.35837 z" stroke-linejoin="round" />
+	<path id= "sec202" d="M 0,0 l 1,0 a1,1 0 1,0 -1.92718,+0.37461 z" stroke-linejoin="round" />
+	<path id= "sec203" d="M 0,0 l 1,0 a1,1 0 1,0 -1.92050,+0.39073 z" stroke-linejoin="round" />
+	<path id= "sec204" d="M 0,0 l 1,0 a1,1 0 1,0 -1.91355,+0.40674 z" stroke-linejoin="round" />
+	<path id= "sec205" d="M 0,0 l 1,0 a1,1 0 1,0 -1.90631,+0.42262 z" stroke-linejoin="round" />
+	<path id= "sec206" d="M 0,0 l 1,0 a1,1 0 1,0 -1.89879,+0.43837 z" stroke-linejoin="round" />
+	<path id= "sec207" d="M 0,0 l 1,0 a1,1 0 1,0 -1.89101,+0.45399 z" stroke-linejoin="round" />
+	<path id= "sec208" d="M 0,0 l 1,0 a1,1 0 1,0 -1.88295,+0.46947 z" stroke-linejoin="round" />
+	<path id= "sec209" d="M 0,0 l 1,0 a1,1 0 1,0 -1.87462,+0.48481 z" stroke-linejoin="round" />
+
+	<!-- 210 degrees -->
+
+	<path id= "sec210" d="M 0,0 l 1,0 a1,1 0 1,0 -1.86603,+0.50000 z" stroke-linejoin="round" />
+	<path id= "sec211" d="M 0,0 l 1,0 a1,1 0 1,0 -1.85717,+0.51504 z" stroke-linejoin="round" />
+	<path id= "sec212" d="M 0,0 l 1,0 a1,1 0 1,0 -1.84805,+0.52992 z" stroke-linejoin="round" />
+	<path id= "sec213" d="M 0,0 l 1,0 a1,1 0 1,0 -1.83867,+0.54464 z" stroke-linejoin="round" />
+	<path id= "sec214" d="M 0,0 l 1,0 a1,1 0 1,0 -1.82904,+0.55919 z" stroke-linejoin="round" />
+	<path id= "sec215" d="M 0,0 l 1,0 a1,1 0 1,0 -1.81915,+0.57358 z" stroke-linejoin="round" />
+	<path id= "sec216" d="M 0,0 l 1,0 a1,1 0 1,0 -1.80902,+0.58779 z" stroke-linejoin="round" />
+	<path id= "sec217" d="M 0,0 l 1,0 a1,1 0 1,0 -1.79864,+0.60182 z" stroke-linejoin="round" />
+	<path id= "sec218" d="M 0,0 l 1,0 a1,1 0 1,0 -1.78801,+0.61566 z" stroke-linejoin="round" />
+	<path id= "sec219" d="M 0,0 l 1,0 a1,1 0 1,0 -1.77715,+0.62932 z" stroke-linejoin="round" />
+
+	<!-- 220 degrees -->
+
+	<path id= "sec220" d="M 0,0 l 1,0 a1,1 0 1,0 -1.76604,+0.64279 z" stroke-linejoin="round" />
+	<path id= "sec221" d="M 0,0 l 1,0 a1,1 0 1,0 -1.75471,+0.65606 z" stroke-linejoin="round" />
+	<path id= "sec222" d="M 0,0 l 1,0 a1,1 0 1,0 -1.74314,+0.66913 z" stroke-linejoin="round" />
+	<path id= "sec223" d="M 0,0 l 1,0 a1,1 0 1,0 -1.73135,+0.68200 z" stroke-linejoin="round" />
+	<path id= "sec224" d="M 0,0 l 1,0 a1,1 0 1,0 -1.71934,+0.69466 z" stroke-linejoin="round" />
+	<path id= "sec225" d="M 0,0 l 1,0 a1,1 0 1,0 -1.70711,+0.70711 z" stroke-linejoin="round" />
+	<path id= "sec226" d="M 0,0 l 1,0 a1,1 0 1,0 -1.69466,+0.71934 z" stroke-linejoin="round" />
+	<path id= "sec227" d="M 0,0 l 1,0 a1,1 0 1,0 -1.68200,+0.73135 z" stroke-linejoin="round" />
+	<path id= "sec228" d="M 0,0 l 1,0 a1,1 0 1,0 -1.66913,+0.74314 z" stroke-linejoin="round" />
+	<path id= "sec229" d="M 0,0 l 1,0 a1,1 0 1,0 -1.65606,+0.75471 z" stroke-linejoin="round" />
+
+	<!-- 230 degrees -->
+
+	<path id= "sec230" d="M 0,0 l 1,0 a1,1 0 1,0 -1.64279,+0.76604 z" stroke-linejoin="round" />
+	<path id= "sec231" d="M 0,0 l 1,0 a1,1 0 1,0 -1.62932,+0.77715 z" stroke-linejoin="round" />
+	<path id= "sec232" d="M 0,0 l 1,0 a1,1 0 1,0 -1.61566,+0.78801 z" stroke-linejoin="round" />
+	<path id= "sec233" d="M 0,0 l 1,0 a1,1 0 1,0 -1.60182,+0.79864 z" stroke-linejoin="round" />
+	<path id= "sec234" d="M 0,0 l 1,0 a1,1 0 1,0 -1.58779,+0.80902 z" stroke-linejoin="round" />
+	<path id= "sec235" d="M 0,0 l 1,0 a1,1 0 1,0 -1.57358,+0.81915 z" stroke-linejoin="round" />
+	<path id= "sec236" d="M 0,0 l 1,0 a1,1 0 1,0 -1.55919,+0.82904 z" stroke-linejoin="round" />
+	<path id= "sec237" d="M 0,0 l 1,0 a1,1 0 1,0 -1.54464,+0.83867 z" stroke-linejoin="round" />
+	<path id= "sec238" d="M 0,0 l 1,0 a1,1 0 1,0 -1.52992,+0.84805 z" stroke-linejoin="round" />
+	<path id= "sec239" d="M 0,0 l 1,0 a1,1 0 1,0 -1.51504,+0.85717 z" stroke-linejoin="round" />
+
+	<!-- 240 degrees -->
+
+	<path id= "sec240" d="M 0,0 l 1,0 a1,1 0 1,0 -1.50000,+0.86603 z" stroke-linejoin="round" />
+	<path id= "sec241" d="M 0,0 l 1,0 a1,1 0 1,0 -1.48481,+0.87462 z" stroke-linejoin="round" />
+	<path id= "sec242" d="M 0,0 l 1,0 a1,1 0 1,0 -1.46947,+0.88295 z" stroke-linejoin="round" />
+	<path id= "sec243" d="M 0,0 l 1,0 a1,1 0 1,0 -1.45399,+0.89101 z" stroke-linejoin="round" />
+	<path id= "sec244" d="M 0,0 l 1,0 a1,1 0 1,0 -1.43837,+0.89879 z" stroke-linejoin="round" />
+	<path id= "sec245" d="M 0,0 l 1,0 a1,1 0 1,0 -1.42262,+0.90631 z" stroke-linejoin="round" />
+	<path id= "sec246" d="M 0,0 l 1,0 a1,1 0 1,0 -1.40674,+0.91355 z" stroke-linejoin="round" />
+	<path id= "sec247" d="M 0,0 l 1,0 a1,1 0 1,0 -1.39073,+0.92050 z" stroke-linejoin="round" />
+	<path id= "sec248" d="M 0,0 l 1,0 a1,1 0 1,0 -1.37461,+0.92718 z" stroke-linejoin="round" />
+	<path id= "sec249" d="M 0,0 l 1,0 a1,1 0 1,0 -1.35837,+0.93358 z" stroke-linejoin="round" />
+
+	<!-- 250 degrees -->
+
+	<path id= "sec250" d="M 0,0 l 1,0 a1,1 0 1,0 -1.34202,+0.93969 z" stroke-linejoin="round" />
+	<path id= "sec251" d="M 0,0 l 1,0 a1,1 0 1,0 -1.32557,+0.94552 z" stroke-linejoin="round" />
+	<path id= "sec252" d="M 0,0 l 1,0 a1,1 0 1,0 -1.30902,+0.95106 z" stroke-linejoin="round" />
+	<path id= "sec253" d="M 0,0 l 1,0 a1,1 0 1,0 -1.29237,+0.95630 z" stroke-linejoin="round" />
+	<path id= "sec254" d="M 0,0 l 1,0 a1,1 0 1,0 -1.27564,+0.96126 z" stroke-linejoin="round" />
+	<path id= "sec255" d="M 0,0 l 1,0 a1,1 0 1,0 -1.25882,+0.96593 z" stroke-linejoin="round" />
+	<path id= "sec256" d="M 0,0 l 1,0 a1,1 0 1,0 -1.24192,+0.97030 z" stroke-linejoin="round" />
+	<path id= "sec257" d="M 0,0 l 1,0 a1,1 0 1,0 -1.22495,+0.97437 z" stroke-linejoin="round" />
+	<path id= "sec258" d="M 0,0 l 1,0 a1,1 0 1,0 -1.20791,+0.97815 z" stroke-linejoin="round" />
+	<path id= "sec259" d="M 0,0 l 1,0 a1,1 0 1,0 -1.19081,+0.98163 z" stroke-linejoin="round" />
+
+	<!-- 260 degrees -->
+
+	<path id= "sec260" d="M 0,0 l 1,0 a1,1 0 1,0 -1.17365,+0.98481 z" stroke-linejoin="round" />
+	<path id= "sec261" d="M 0,0 l 1,0 a1,1 0 1,0 -1.15643,+0.98769 z" stroke-linejoin="round" />
+	<path id= "sec262" d="M 0,0 l 1,0 a1,1 0 1,0 -1.13917,+0.99027 z" stroke-linejoin="round" />
+	<path id= "sec263" d="M 0,0 l 1,0 a1,1 0 1,0 -1.12187,+0.99255 z" stroke-linejoin="round" />
+	<path id= "sec264" d="M 0,0 l 1,0 a1,1 0 1,0 -1.10453,+0.99452 z" stroke-linejoin="round" />
+	<path id= "sec265" d="M 0,0 l 1,0 a1,1 0 1,0 -1.08716,+0.99619 z" stroke-linejoin="round" />
+	<path id= "sec266" d="M 0,0 l 1,0 a1,1 0 1,0 -1.06976,+0.99756 z" stroke-linejoin="round" />
+	<path id= "sec267" d="M 0,0 l 1,0 a1,1 0 1,0 -1.05234,+0.99863 z" stroke-linejoin="round" />
+	<path id= "sec268" d="M 0,0 l 1,0 a1,1 0 1,0 -1.03490,+0.99939 z" stroke-linejoin="round" />
+	<path id= "sec269" d="M 0,0 l 1,0 a1,1 0 1,0 -1.01745,+0.99985 z" stroke-linejoin="round" />
+
+	<!-- 270 degrees -->
+
+	<path id= "sec270" d="M 0,0 l 1,0 a1,1 0 1,0 -1.00000,+1.00000 z" stroke-linejoin="round" />
+	<path id= "sec271" d="M 0,0 l 1,0 a1,1 0 1,0 -0.98255,+0.99985 z" stroke-linejoin="round" />
+	<path id= "sec272" d="M 0,0 l 1,0 a1,1 0 1,0 -0.96510,+0.99939 z" stroke-linejoin="round" />
+	<path id= "sec273" d="M 0,0 l 1,0 a1,1 0 1,0 -0.94766,+0.99863 z" stroke-linejoin="round" />
+	<path id= "sec274" d="M 0,0 l 1,0 a1,1 0 1,0 -0.93024,+0.99756 z" stroke-linejoin="round" />
+	<path id= "sec275" d="M 0,0 l 1,0 a1,1 0 1,0 -0.91284,+0.99619 z" stroke-linejoin="round" />
+	<path id= "sec276" d="M 0,0 l 1,0 a1,1 0 1,0 -0.89547,+0.99452 z" stroke-linejoin="round" />
+	<path id= "sec277" d="M 0,0 l 1,0 a1,1 0 1,0 -0.87813,+0.99255 z" stroke-linejoin="round" />
+	<path id= "sec278" d="M 0,0 l 1,0 a1,1 0 1,0 -0.86083,+0.99027 z" stroke-linejoin="round" />
+	<path id= "sec279" d="M 0,0 l 1,0 a1,1 0 1,0 -0.84357,+0.98769 z" stroke-linejoin="round" />
+
+	<!-- 280 degrees -->
+
+	<path id= "sec280" d="M 0,0 l 1,0 a1,1 0 1,0 -0.82635,+0.98481 z" stroke-linejoin="round" />
+	<path id= "sec281" d="M 0,0 l 1,0 a1,1 0 1,0 -0.80919,+0.98163 z" stroke-linejoin="round" />
+	<path id= "sec282" d="M 0,0 l 1,0 a1,1 0 1,0 -0.79209,+0.97815 z" stroke-linejoin="round" />
+	<path id= "sec283" d="M 0,0 l 1,0 a1,1 0 1,0 -0.77505,+0.97437 z" stroke-linejoin="round" />
+	<path id= "sec284" d="M 0,0 l 1,0 a1,1 0 1,0 -0.75808,+0.97030 z" stroke-linejoin="round" />
+	<path id= "sec285" d="M 0,0 l 1,0 a1,1 0 1,0 -0.74118,+0.96593 z" stroke-linejoin="round" />
+	<path id= "sec286" d="M 0,0 l 1,0 a1,1 0 1,0 -0.72436,+0.96126 z" stroke-linejoin="round" />
+	<path id= "sec287" d="M 0,0 l 1,0 a1,1 0 1,0 -0.70763,+0.95630 z" stroke-linejoin="round" />
+	<path id= "sec288" d="M 0,0 l 1,0 a1,1 0 1,0 -0.69098,+0.95106 z" stroke-linejoin="round" />
+	<path id= "sec289" d="M 0,0 l 1,0 a1,1 0 1,0 -0.67443,+0.94552 z" stroke-linejoin="round" />
+
+	<!-- 290 degrees -->
+
+	<path id= "sec290" d="M 0,0 l 1,0 a1,1 0 1,0 -0.65798,+0.93969 z" stroke-linejoin="round" />
+	<path id= "sec291" d="M 0,0 l 1,0 a1,1 0 1,0 -0.64163,+0.93358 z" stroke-linejoin="round" />
+	<path id= "sec292" d="M 0,0 l 1,0 a1,1 0 1,0 -0.62539,+0.92718 z" stroke-linejoin="round" />
+	<path id= "sec293" d="M 0,0 l 1,0 a1,1 0 1,0 -0.60927,+0.92050 z" stroke-linejoin="round" />
+	<path id= "sec294" d="M 0,0 l 1,0 a1,1 0 1,0 -0.59326,+0.91355 z" stroke-linejoin="round" />
+	<path id= "sec295" d="M 0,0 l 1,0 a1,1 0 1,0 -0.57738,+0.90631 z" stroke-linejoin="round" />
+	<path id= "sec296" d="M 0,0 l 1,0 a1,1 0 1,0 -0.56163,+0.89879 z" stroke-linejoin="round" />
+	<path id= "sec297" d="M 0,0 l 1,0 a1,1 0 1,0 -0.54601,+0.89101 z" stroke-linejoin="round" />
+	<path id= "sec298" d="M 0,0 l 1,0 a1,1 0 1,0 -0.53053,+0.88295 z" stroke-linejoin="round" />
+	<path id= "sec299" d="M 0,0 l 1,0 a1,1 0 1,0 -0.51519,+0.87462 z" stroke-linejoin="round" />
+
+	<!-- 300 degrees -->
+
+	<path id= "sec300" d="M 0,0 l 1,0 a1,1 0 1,0 -0.50000,+0.86603 z" stroke-linejoin="round" />
+	<path id= "sec301" d="M 0,0 l 1,0 a1,1 0 1,0 -0.48496,+0.85717 z" stroke-linejoin="round" />
+	<path id= "sec302" d="M 0,0 l 1,0 a1,1 0 1,0 -0.47008,+0.84805 z" stroke-linejoin="round" />
+	<path id= "sec303" d="M 0,0 l 1,0 a1,1 0 1,0 -0.45536,+0.83867 z" stroke-linejoin="round" />
+	<path id= "sec304" d="M 0,0 l 1,0 a1,1 0 1,0 -0.44081,+0.82904 z" stroke-linejoin="round" />
+	<path id= "sec305" d="M 0,0 l 1,0 a1,1 0 1,0 -0.42642,+0.81915 z" stroke-linejoin="round" />
+	<path id= "sec306" d="M 0,0 l 1,0 a1,1 0 1,0 -0.41221,+0.80902 z" stroke-linejoin="round" />
+	<path id= "sec307" d="M 0,0 l 1,0 a1,1 0 1,0 -0.39818,+0.79864 z" stroke-linejoin="round" />
+	<path id= "sec308" d="M 0,0 l 1,0 a1,1 0 1,0 -0.38434,+0.78801 z" stroke-linejoin="round" />
+	<path id= "sec309" d="M 0,0 l 1,0 a1,1 0 1,0 -0.37068,+0.77715 z" stroke-linejoin="round" />
+
+	<!-- 310 degrees -->
+
+	<path id= "sec310" d="M 0,0 l 1,0 a1,1 0 1,0 -0.35721,+0.76604 z" stroke-linejoin="round" />
+	<path id= "sec311" d="M 0,0 l 1,0 a1,1 0 1,0 -0.34394,+0.75471 z" stroke-linejoin="round" />
+	<path id= "sec312" d="M 0,0 l 1,0 a1,1 0 1,0 -0.33087,+0.74314 z" stroke-linejoin="round" />
+	<path id= "sec313" d="M 0,0 l 1,0 a1,1 0 1,0 -0.31800,+0.73135 z" stroke-linejoin="round" />
+	<path id= "sec314" d="M 0,0 l 1,0 a1,1 0 1,0 -0.30534,+0.71934 z" stroke-linejoin="round" />
+	<path id= "sec315" d="M 0,0 l 1,0 a1,1 0 1,0 -0.29289,+0.70711 z" stroke-linejoin="round" />
+	<path id= "sec316" d="M 0,0 l 1,0 a1,1 0 1,0 -0.28066,+0.69466 z" stroke-linejoin="round" />
+	<path id= "sec317" d="M 0,0 l 1,0 a1,1 0 1,0 -0.26865,+0.68200 z" stroke-linejoin="round" />
+	<path id= "sec318" d="M 0,0 l 1,0 a1,1 0 1,0 -0.25686,+0.66913 z" stroke-linejoin="round" />
+	<path id= "sec319" d="M 0,0 l 1,0 a1,1 0 1,0 -0.24529,+0.65606 z" stroke-linejoin="round" />
+
+	<!-- 320 degrees -->
+
+	<path id= "sec320" d="M 0,0 l 1,0 a1,1 0 1,0 -0.23396,+0.64279 z" stroke-linejoin="round" />
+	<path id= "sec321" d="M 0,0 l 1,0 a1,1 0 1,0 -0.22285,+0.62932 z" stroke-linejoin="round" />
+	<path id= "sec322" d="M 0,0 l 1,0 a1,1 0 1,0 -0.21199,+0.61566 z" stroke-linejoin="round" />
+	<path id= "sec323" d="M 0,0 l 1,0 a1,1 0 1,0 -0.20136,+0.60182 z" stroke-linejoin="round" />
+	<path id= "sec324" d="M 0,0 l 1,0 a1,1 0 1,0 -0.19098,+0.58779 z" stroke-linejoin="round" />
+	<path id= "sec325" d="M 0,0 l 1,0 a1,1 0 1,0 -0.18085,+0.57358 z" stroke-linejoin="round" />
+	<path id= "sec326" d="M 0,0 l 1,0 a1,1 0 1,0 -0.17096,+0.55919 z" stroke-linejoin="round" />
+	<path id= "sec327" d="M 0,0 l 1,0 a1,1 0 1,0 -0.16133,+0.54464 z" stroke-linejoin="round" />
+	<path id= "sec328" d="M 0,0 l 1,0 a1,1 0 1,0 -0.15195,+0.52992 z" stroke-linejoin="round" />
+	<path id= "sec329" d="M 0,0 l 1,0 a1,1 0 1,0 -0.14283,+0.51504 z" stroke-linejoin="round" />
+
+	<!-- 330 degrees -->
+
+	<path id= "sec330" d="M 0,0 l 1,0 a1,1 0 1,0 -0.13397,+0.50000 z" stroke-linejoin="round" />
+	<path id= "sec331" d="M 0,0 l 1,0 a1,1 0 1,0 -0.12538,+0.48481 z" stroke-linejoin="round" />
+	<path id= "sec332" d="M 0,0 l 1,0 a1,1 0 1,0 -0.11705,+0.46947 z" stroke-linejoin="round" />
+	<path id= "sec333" d="M 0,0 l 1,0 a1,1 0 1,0 -0.10899,+0.45399 z" stroke-linejoin="round" />
+	<path id= "sec334" d="M 0,0 l 1,0 a1,1 0 1,0 -0.10121,+0.43837 z" stroke-linejoin="round" />
+	<path id= "sec335" d="M 0,0 l 1,0 a1,1 0 1,0 -0.09369,+0.42262 z" stroke-linejoin="round" />
+	<path id= "sec336" d="M 0,0 l 1,0 a1,1 0 1,0 -0.08645,+0.40674 z" stroke-linejoin="round" />
+	<path id= "sec337" d="M 0,0 l 1,0 a1,1 0 1,0 -0.07950,+0.39073 z" stroke-linejoin="round" />
+	<path id= "sec338" d="M 0,0 l 1,0 a1,1 0 1,0 -0.07282,+0.37461 z" stroke-linejoin="round" />
+	<path id= "sec339" d="M 0,0 l 1,0 a1,1 0 1,0 -0.06642,+0.35837 z" stroke-linejoin="round" />
+
+	<!-- 340 degrees -->
+
+	<path id= "sec340" d="M 0,0 l 1,0 a1,1 0 1,0 -0.06031,+0.34202 z" stroke-linejoin="round" />
+	<path id= "sec341" d="M 0,0 l 1,0 a1,1 0 1,0 -0.05448,+0.32557 z" stroke-linejoin="round" />
+	<path id= "sec342" d="M 0,0 l 1,0 a1,1 0 1,0 -0.04894,+0.30902 z" stroke-linejoin="round" />
+	<path id= "sec343" d="M 0,0 l 1,0 a1,1 0 1,0 -0.04370,+0.29237 z" stroke-linejoin="round" />
+	<path id= "sec344" d="M 0,0 l 1,0 a1,1 0 1,0 -0.03874,+0.27564 z" stroke-linejoin="round" />
+	<path id= "sec345" d="M 0,0 l 1,0 a1,1 0 1,0 -0.03407,+0.25882 z" stroke-linejoin="round" />
+	<path id= "sec346" d="M 0,0 l 1,0 a1,1 0 1,0 -0.02970,+0.24192 z" stroke-linejoin="round" />
+	<path id= "sec347" d="M 0,0 l 1,0 a1,1 0 1,0 -0.02563,+0.22495 z" stroke-linejoin="round" />
+	<path id= "sec348" d="M 0,0 l 1,0 a1,1 0 1,0 -0.02185,+0.20791 z" stroke-linejoin="round" />
+	<path id= "sec349" d="M 0,0 l 1,0 a1,1 0 1,0 -0.01837,+0.19081 z" stroke-linejoin="round" />
+
+	<!-- 350 degrees -->
+
+	<path id= "sec350" d="M 0,0 l 1,0 a1,1 0 1,0 -0.01519,+0.17365 z" stroke-linejoin="round" />
+	<path id= "sec351" d="M 0,0 l 1,0 a1,1 0 1,0 -0.01231,+0.15643 z" stroke-linejoin="round" />
+	<path id= "sec352" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00973,+0.13917 z" stroke-linejoin="round" />
+	<path id= "sec353" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00745,+0.12187 z" stroke-linejoin="round" />
+	<path id= "sec354" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00548,+0.10453 z" stroke-linejoin="round" />
+	<path id= "sec355" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00381,+0.08716 z" stroke-linejoin="round" />
+	<path id= "sec356" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00244,+0.06976 z" stroke-linejoin="round" />
+	<path id= "sec357" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00137,+0.05234 z" stroke-linejoin="round" />
+	<path id= "sec358" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00061,+0.03490 z" stroke-linejoin="round" />
+	<path id= "sec359" d="M 0,0 l 1,0 a1,1 0 1,0 -0.00015,+0.01745 z" stroke-linejoin="round" />
+
+	<path id= "sec000" d="M 0,0 l 1,0 a1,1 0 0,0 +0.00000,+0.00000 z" stroke-linejoin="round" />
+	<circle id= "sec360" cx="0" cy="0" r="1" />
+
+</defs>
+
+<g transform="translate(160 180)">
+
+	<g transform="scale(149)" stroke="black" stroke-width="0.018">
+		<use xlink:href="#sec360" fill="none"/>
+		<use xlink:href="#sec050" transform="rotate(320)" stroke="red" fill="#ffd5d5"/>
+	</g>
+
+	<g style="font-size:18px; font-style:normal; font-weight:normal; font-family:Arial" transform="translate(-12 16)">
+		<text x="0" y="0">O</text>
+		<text x="7" y="-173">A</text>
+		<text x="132" y="-114">B</text>
+	</g>
+
+</g>
+
+</svg>
